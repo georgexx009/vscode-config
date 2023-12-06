@@ -1,0 +1,102 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.jediEnabled": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+},
+"python.languageServer": "Microsoft",
+"javascript.updateImportsOnFileMove.enabled": "always",
+"html.format.enable": false,
+"workbench.colorTheme": "One Dark Pro",
+"workbench.iconTheme": "material-icon-theme",
+"typescript.updateImportsOnFileMove.enabled": "always",
+"extensions.ignoreRecommendations": true,
+"vim.leader": "<Space>",
+"editor.lineNumbers": "relative",
+"editor.cursorBlinking": "solid",
+"vim.insertModeKeyBindingsNonRecursive": [
+  {
+    "before": ["j", "j"],
+    "after": ["<ESC>",":","w","<CR>"]
+  }
+],
+"vim.normalModeKeyBindingsNonRecursive": [
+  {
+    "before": ["leader", "c"],
+    "after": ["\"", "+", "y", "$"]
+  },
+  {
+    "before": ["leader", "y"],
+    "after": ["\"", "+", "y"]
+  },
+  {
+    "before": ["leader", "1"],
+    "commands": ["workbench.files.action.focusOpenEditorsView"]
+  },
+  {
+    "before": ["leader", "0"],
+    "commands": ["workbench.action.focusSideBar"]
+  },
+  {
+    "before": ["leader", "g", "d"],
+    "commands": ["editor.action.revealDefinition"]
+  },
+  {
+    "before": ["leader", "s", "d"],
+    "commands": ["editor.action.showDefinitionPreviewHover"]
+  },
+  {
+    "before": ["J"],
+    "after": ["5", "j"]
+  },
+  {
+    "before": ["K"],
+    "after": ["5", "k"]
+  },
+  {
+    "before": ["leader", "s", "v"],
+    "commands": ["workbench.action.splitEditor"]
+  },
+  {
+    "before": ["leader", "s", "h"],
+    "commands": ["workbench.action.splitEditorDown"]
+  },
+  {
+    "before": ["leader", "c", "a"],
+    "commands": ["workbench.action.closeSidebar"]
+  },
+  {
+    "before": ["leader", "h"],
+    "after": ["<C-w>", "h"]
+  },
+  {
+    "before": ["leader", "j"],
+    "after": ["<C-w>", "j"]
+  },
+  {
+    "before": ["leader", "k"],
+    "after": ["<C-w>", "k"]
+  },
+  {
+    "before": ["leader", "l"],
+    "after": ["<C-w>", "l"]
+  }
+],
+"bracketPairColorizer.depreciation-notice": false,
+"window.commandCenter": false,
+"workbench.layoutControl.enabled": false,
+"editor.fontSize": 14,
+"outline.collapseItems": "alwaysCollapse",
+"editor.stickyScroll.enabled": true,
+"window.zoomLevel": 1,
+"git.confirmSync": false
+}
